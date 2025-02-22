@@ -62,3 +62,15 @@ a {
 .right-links{
   margin-left: auto;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.buttons button {
+  padding: 10px;
+}
