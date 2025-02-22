@@ -30,13 +30,14 @@ input {
 
 ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  padding: 10px;
+  margin: 10px;
   display: flex;
+  gap: 10px;
 }
 
 a { 
-  color: darkgrey; 
+  color: black; 
   text-decoration: none;
 } 
 
@@ -47,8 +48,17 @@ a {
 
 .footer {
   margin-top: auto;
+  background-color: lightgray;
 }
 
 .header {
   margin-bottom: auto;
+}
+
+.left-links {
+  margin-right: auto;
+}
+
+.right-links{
+  margin-left: auto;
 }
