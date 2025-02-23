@@ -36,7 +36,10 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex: 1;
+  flex: 0 1 24%;
+  box-sizing: border-box;
+  padding: 10px;
+
 }
 
 body {
@@ -65,4 +68,5 @@ a {
   padding: 48px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
